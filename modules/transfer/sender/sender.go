@@ -23,7 +23,8 @@ import (
 	cmodel "github.com/open-falcon/falcon-plus/common/model"
 	"github.com/open-falcon/falcon-plus/modules/transfer/g"
 	"github.com/open-falcon/falcon-plus/modules/transfer/proc"
-	rings "github.com/toolkits/consistent/rings"
+	//rings "github.com/toolkits/consistent/rings"
+	rings "../../../vendor/github.com/toolkits/consistent/rings"
 	nlist "github.com/toolkits/container/list"
 	"time"
 )
